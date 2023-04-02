@@ -11,15 +11,18 @@ const dataTest: ImgMediaCardProps[] = [
   { title: 'Titulo1', description: 'description1', imagem: 'url(https://source.unsplash.com/random)' },
   { title: 'Titulo2', description: 'description2', imagem: 'url(https://source.unsplash.com/random)' },
   { title: 'Titulo3', description: 'description3', imagem: 'url(https://source.unsplash.com/random)' },
-  { title: 'Titulo3', description: 'description3', imagem: 'url(https://source.unsplash.com/random)' },
-  { title: 'Titulo3', description: 'description3', imagem: 'url(https://source.unsplash.com/random)' },
-  { title: 'Titulo3', description: 'description3', imagem: 'url(https://source.unsplash.com/random)' },
-  { title: 'Titulo3', description: 'description3', imagem: 'url(https://source.unsplash.com/random)' },
-  { title: 'Titulo3', description: 'description3', imagem: 'url(https://source.unsplash.com/random)' },
-  { title: 'Titulo3', description: 'description3', imagem: 'url(https://source.unsplash.com/random)' },
-  { title: 'Titulo3', description: 'description3', imagem: 'url(https://source.unsplash.com/random)' },
-  { title: 'Titulo3', description: 'description3', imagem: 'url(https://source.unsplash.com/random)' },
-  { title: 'Titulo3', description: 'description3', imagem: 'url(https://source.unsplash.com/random)' }
+  { title: 'Titulo4', description: 'description4', imagem: 'url(https://source.unsplash.com/random)' },
+  { title: 'Titulo5', description: 'description5', imagem: 'url(https://source.unsplash.com/random)' },
+  { title: 'Titulo6', description: 'description6', imagem: 'url(https://source.unsplash.com/random)' },
+  { title: 'Titulo7', description: 'description7', imagem: 'url(https://source.unsplash.com/random)' },
+  { title: 'Titulo8', description: 'description8', imagem: 'url(https://source.unsplash.com/random)' },
+  { title: 'Titulo9', description: 'description9', imagem: 'url(https://source.unsplash.com/random)' },
+  { title: 'Titulo10', description: 'description10', imagem: 'url(https://source.unsplash.com/random)' },
+  { title: 'Titulo11', description: 'description11', imagem: 'url(https://source.unsplash.com/random)' },
+  { title: 'Titulo12', description: 'description12', imagem: 'url(https://source.unsplash.com/random)' },
+  { title: 'Titulo13', description: 'description13', imagem: 'url(https://source.unsplash.com/random)' },
+  { title: 'Titulo14', description: 'description14', imagem: 'url(https://source.unsplash.com/random)' },
+  { title: 'Titulo15', description: 'description15', imagem: 'url(https://source.unsplash.com/random)' }
 ];
 
 const Photos: React.FC = () => {
@@ -43,7 +46,9 @@ const Photos: React.FC = () => {
             and style of the music.
           </Typography>
         </Grid>
+      </Grid>
 
+      <Grid container style={{ border: '1px solid black' }}>
         <Grid
           item
           style={{
