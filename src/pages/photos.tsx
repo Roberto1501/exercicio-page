@@ -5,6 +5,22 @@ import ButtonAppBar from '../components/layouts/Layout';
 import { Grid } from '@mui/material';
 import Typography from '@mui/material/Typography';
 import ImgMediaCard from '../components/Card';
+import ImgMediaCardProps from '../types/ImgMediaCardProps';
+
+const dataTest: ImgMediaCardProps[] = [
+  { title: 'Titulo1', description: 'description1', imagem: 'url(https://source.unsplash.com/random)' },
+  { title: 'Titulo2', description: 'description2', imagem: 'url(https://source.unsplash.com/random)' },
+  { title: 'Titulo3', description: 'description3', imagem: 'url(https://source.unsplash.com/random)' },
+  { title: 'Titulo3', description: 'description3', imagem: 'url(https://source.unsplash.com/random)' },
+  { title: 'Titulo3', description: 'description3', imagem: 'url(https://source.unsplash.com/random)' },
+  { title: 'Titulo3', description: 'description3', imagem: 'url(https://source.unsplash.com/random)' },
+  { title: 'Titulo3', description: 'description3', imagem: 'url(https://source.unsplash.com/random)' },
+  { title: 'Titulo3', description: 'description3', imagem: 'url(https://source.unsplash.com/random)' },
+  { title: 'Titulo3', description: 'description3', imagem: 'url(https://source.unsplash.com/random)' },
+  { title: 'Titulo3', description: 'description3', imagem: 'url(https://source.unsplash.com/random)' },
+  { title: 'Titulo3', description: 'description3', imagem: 'url(https://source.unsplash.com/random)' },
+  { title: 'Titulo3', description: 'description3', imagem: 'url(https://source.unsplash.com/random)' }
+];
 
 const Photos: React.FC = () => {
   return (
@@ -28,10 +44,16 @@ const Photos: React.FC = () => {
           </Typography>
         </Grid>
 
-        <Grid item style={{ width: '100%', display: 'flex', justifyContent: 'center', marginTop: '3%' }}>
-          <ImgMediaCard />
-          <ImgMediaCard />
-          <ImgMediaCard />
+        <Grid
+          item
+          style={{
+            width: '100%',
+            display: 'flex',
+            justifyContent: 'center',
+            marginTop: '3%'
+          }}
+        >
+          <ImgMediaCard dados={dataTest} />
         </Grid>
       </Grid>
     </React.Fragment>
